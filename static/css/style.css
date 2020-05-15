@@ -3768,10 +3768,10 @@ ul.list-inline li {
     line-height: 65px;
     border-radius: 50%;
     background: #fff;
-    box-shadow: 0 0 0 8px rgba(166, 167, 163, 0.24);
+    box-shadow: 0 0 0 8px #44d62c;
     font-size: 35px;
     font-weight: 600;
-    color: #404040;
+    color: #44d62c;
     position: absolute;
     top: 110px;
     left: 50%;
@@ -3833,7 +3833,8 @@ ul.list-inline li {
     font-size: 45px;
     position: relative;
     font-weight: 600;
-    color: #666;
+    color: #44d62c;
+    background-color: transparent;
     display: inline-block;
     padding-top: 25px;
 }
