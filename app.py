@@ -20,5 +20,5 @@ def crowdsourcing():
     return render_template('crowdsourcing.html')
 
 @app.route('/index2')
-def home_page():
+def home_page2():
     return render_template("index2.html")
