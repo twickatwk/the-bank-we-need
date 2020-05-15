@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import render_template
 app = Flask(__name__)
+app.debug = True
 
 @app.route('/')
 def home_page():
@@ -17,3 +18,7 @@ def loan_page():
 @app.route('/crowdsourcing')
 def crowdsourcing():
     return render_template('crowdsourcing.html')
+
+@app.route('/index2')
+def home_page():
+    return render_template("index2.html")
