@@ -1,0 +1,18 @@
+
+Installing the Virtual Environment
+(Windows)
+py -3 -m venv venv
+(MacOS)
+python3 -m venv venv
+
+Activating the Virtial Environment
+(Windows)
+venv\Scripts\activate
+(MacOS)
+. venv/bin/activate
+
+Install Flask
+pip install flask
+
+Install Flask .env Environment
+pip install python-dotenv
